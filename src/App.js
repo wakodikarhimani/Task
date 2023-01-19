@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 
+//Concept implememted React Router and Lazy Loading
 const ComponentA = lazy(() => import('./ComponentA'));
 
 function App() {
